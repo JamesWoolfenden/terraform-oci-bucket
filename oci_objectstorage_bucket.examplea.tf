@@ -3,12 +3,13 @@ resource "oci_objectstorage_bucket" "examplea" {
   name           = var.bucket_name
   namespace      = var.namespace
 
-  access_type   = var.bucket_access_type
-  defined_tags  = var.defined_tags
-  freeform_tags = var.freeform_tags
-  kms_key_id    = var.oci_kms_key.id
-  metadata      = var.metadata
-  storage_tier  = var.bucket_storage_tier
+  access_type           = var.bucket_access_type
+  defined_tags          = var.defined_tags
+  freeform_tags         = var.freeform_tags
+  kms_key_id            = var.oci_kms_key.id
+  metadata              = var.metadata
+  storage_tier          = var.bucket_storage_tier
+  object_events_enabled = var.object_events_enabled
 
   retention_rules {
     display_name = var.retention_rule_display_name

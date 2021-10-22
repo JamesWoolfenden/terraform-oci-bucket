@@ -53,3 +53,8 @@ variable "bucket_versioning" {
   type    = string
   default = "Enabled"
 }
+
+variable "object_events_enabled" {
+  type    = bool
+  default = true
+}
