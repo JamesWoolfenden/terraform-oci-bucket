@@ -1,6 +1,7 @@
 variable "compartment_id" {}
 
 variable "oci_kms_key" {
+  default = ""
 }
 
 variable "bucket_name" {
@@ -8,11 +9,10 @@ variable "bucket_name" {
 }
 
 variable "bucket_access_type" {
-  default = ""
+  default = "NoPublicAccess"
 }
 
 variable "namespace" {
-  default = "mynamespace"
 }
 
 variable "defined_tags" {
