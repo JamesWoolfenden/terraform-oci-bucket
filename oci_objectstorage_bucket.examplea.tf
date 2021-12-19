@@ -1,4 +1,4 @@
-resource "oci_objectstorage_bucket" "examplea" {
+resource "oci_objectstorage_bucket" "example" {
   compartment_id = var.compartment_id
   name           = var.bucket_name
   namespace      = var.namespace
