@@ -53,17 +53,18 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_bucket_access_type"></a> [bucket\_access\_type](#input\_bucket\_access\_type) | n/a | `string` | `""` | no |
+| <a name="input_bucket_access_type"></a> [bucket\_access\_type](#input\_bucket\_access\_type) | n/a | `string` | `"NoPublicAccess"` | no |
 | <a name="input_bucket_name"></a> [bucket\_name](#input\_bucket\_name) | n/a | `string` | `"myfirstbucket"` | no |
 | <a name="input_bucket_storage_tier"></a> [bucket\_storage\_tier](#input\_bucket\_storage\_tier) | n/a | `string` | `"Standard"` | no |
 | <a name="input_bucket_versioning"></a> [bucket\_versioning](#input\_bucket\_versioning) | n/a | `string` | `"Enabled"` | no |
 | <a name="input_compartment_id"></a> [compartment\_id](#input\_compartment\_id) | n/a | `any` | n/a | yes |
 | <a name="input_defined_tags"></a> [defined\_tags](#input\_defined\_tags) | n/a | `map` | <pre>{<br>  "Operations.CostCenter": "42"<br>}</pre> | no |
 | <a name="input_freeform_tags"></a> [freeform\_tags](#input\_freeform\_tags) | n/a | `map` | <pre>{<br>  "Department": "Finance"<br>}</pre> | no |
+| <a name="input_kms_key"></a> [kms\_key](#input\_kms\_key) | n/a | `any` | n/a | yes |
 | <a name="input_metadata"></a> [metadata](#input\_metadata) | n/a | `map(any)` | <pre>{<br>  "data": "Blockofdata"<br>}</pre> | no |
-| <a name="input_namespace"></a> [namespace](#input\_namespace) | n/a | `string` | `"mynamespace"` | no |
+| <a name="input_namespace"></a> [namespace](#input\_namespace) | n/a | `any` | n/a | yes |
 | <a name="input_object_events_enabled"></a> [object\_events\_enabled](#input\_object\_events\_enabled) | n/a | `bool` | `true` | no |
-| <a name="input_oci_kms_key"></a> [oci\_kms\_key](#input\_oci\_kms\_key) | n/a | `any` | n/a | yes |
+| <a name="input_oci_kms_key"></a> [oci\_kms\_key](#input\_oci\_kms\_key) | n/a | `string` | `""` | no |
 | <a name="input_retention_rule_display_name"></a> [retention\_rule\_display\_name](#input\_retention\_rule\_display\_name) | n/a | `string` | `"SomeRuleName"` | no |
 | <a name="input_retention_rule_duration_time_amount"></a> [retention\_rule\_duration\_time\_amount](#input\_retention\_rule\_duration\_time\_amount) | n/a | `number` | `60` | no |
 | <a name="input_retention_rule_duration_time_unit"></a> [retention\_rule\_duration\_time\_unit](#input\_retention\_rule\_duration\_time\_unit) | n/a | `string` | `"m"` | no |
@@ -73,7 +74,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_storage"></a> [storage](#output\_storage) | n/a |
+| <a name="output_bucket"></a> [bucket](#output\_bucket) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Related Projects

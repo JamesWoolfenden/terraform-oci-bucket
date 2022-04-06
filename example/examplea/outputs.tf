@@ -1,3 +1,3 @@
-output "storage" {
-  value = module.storage.storage
+output "bucket" {
+  value = module.storage.bucket
 }

@@ -58,3 +58,6 @@ variable "object_events_enabled" {
   type    = bool
   default = true
 }
+
+
+variable "kms_key" {}
