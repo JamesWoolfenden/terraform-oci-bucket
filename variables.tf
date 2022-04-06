@@ -1,8 +1,5 @@
 variable "compartment_id" {}
 
-variable "oci_kms_key" {
-  default = ""
-}
 
 variable "bucket_name" {
   default = "myfirstbucket"

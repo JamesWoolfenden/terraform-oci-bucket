@@ -64,7 +64,6 @@ No modules.
 | <a name="input_metadata"></a> [metadata](#input\_metadata) | n/a | `map(any)` | <pre>{<br>  "data": "Blockofdata"<br>}</pre> | no |
 | <a name="input_namespace"></a> [namespace](#input\_namespace) | n/a | `any` | n/a | yes |
 | <a name="input_object_events_enabled"></a> [object\_events\_enabled](#input\_object\_events\_enabled) | n/a | `bool` | `true` | no |
-| <a name="input_oci_kms_key"></a> [oci\_kms\_key](#input\_oci\_kms\_key) | n/a | `string` | `""` | no |
 | <a name="input_retention_rule_display_name"></a> [retention\_rule\_display\_name](#input\_retention\_rule\_display\_name) | n/a | `string` | `"SomeRuleName"` | no |
 | <a name="input_retention_rule_duration_time_amount"></a> [retention\_rule\_duration\_time\_amount](#input\_retention\_rule\_duration\_time\_amount) | n/a | `number` | `60` | no |
 | <a name="input_retention_rule_duration_time_unit"></a> [retention\_rule\_duration\_time\_unit](#input\_retention\_rule\_duration\_time\_unit) | n/a | `string` | `"m"` | no |
