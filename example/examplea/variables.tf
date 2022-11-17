@@ -1,4 +1,4 @@
-variable "tenancy_id" {
+variable "tenancy_ocid" {
   default = ""
 }
 
